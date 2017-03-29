@@ -1,10 +1,5 @@
-public class Solution016{
-    public static void main(String[] args) {
-
-    }
-}
-
-class ThreeSumClosest{
+public class Solution{
+    
     public int threeSumClosest(int[] nums, int target){
         int closest_target = nums[0] + nums[1] + nums[2]; // closest_target为最接近的3Sum
         int smallest_difference_value = Math.abs(closest_target - target); // 3Sum与target之间最小的差值

@@ -1,10 +1,5 @@
-public class Solution018{
-    public static void main(String[] args) {
-
-    }
-}
-
-class FourSum{
+public class Solution{
+    
     // Approach #1 (HashSet)
     public List<List<Integer>> fourSum(int[] nums, int target){
         List<List<Integer>> result = new ArrayList<List<Integer>>();

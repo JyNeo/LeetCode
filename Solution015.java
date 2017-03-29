@@ -1,10 +1,4 @@
-public class Solution015{
-    public static void main(String[] args){
-
-    }
-}
-
-class ThreeSum{
+public class Solution{
 
     // Approach #1 (Brute Force)
     public List<List<Integer>> threeSum(int[] nums){

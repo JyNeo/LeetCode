@@ -63,7 +63,7 @@ class Solution {
 	public int[] twoSum(int[] numbers, int target) {
     	int[] result = new int[2];
 		int[] nums = new int[numbers.length];
-		for (int i = 0; i < numbers.length; i++) {//复制数组
+		for (int i = 0; i < numbers.length; i++) { //复制数组
 			nums[i] = numbers[i];
 		}
     	if(nums == null || nums.length < 2)
